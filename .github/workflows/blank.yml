@@ -30,3 +30,4 @@ jobs:
         run: |
           whoami
           REG QUERY "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" | findstr REG_SZ
+          echo SUKSES
