@@ -5,6 +5,7 @@ on:
   workflow_dispatch
 
 steps:
+build:
     name: Deploy
     runs-on: windows-2019
 
