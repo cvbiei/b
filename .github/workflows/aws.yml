@@ -4,7 +4,7 @@ name: bismilah
 on:
   workflow_dispatch
 
-jobs:
+steps:
     name: Deploy
     runs-on: windows-2019
 
