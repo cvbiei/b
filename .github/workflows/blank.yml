@@ -34,5 +34,5 @@ jobs:
             cmd /c "sc config Audiosrv start= auto"
             cmd /c "sc start audiosrv"
             echo "Username: Administrator"
-            echo "Password" @RDPfree" 
+            echo "Password: @RDPfree" 
             Get-Localuser
